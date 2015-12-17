@@ -1,0 +1,116 @@
+.client_info {
+    width: 100%;
+    height: 110px;
+    background: #2ac488;
+    padding: 16px 14px;
+}
+
+.client_info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 6px;
+    border: 2px solid #fff;
+    float: left;
+}
+
+.client_info h1 {
+    float: left;
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.client_info h1:before {
+    content: '';
+    display: block;
+    float: left;
+    width: 28px;
+    height: 24px;
+    background: url("../img/shop_address.png") no-repeat 4px;
+    background-size: 24px;
+}
+
+.client_info p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: -32px;
+    float: left;
+    clear: left;
+    background: url("../img/tel.png") no-repeat 80px 0;
+    background-size: 24px;
+}
+
+.client_info p:before {
+    content: '';
+    display: block;
+    float: left;
+    width: 106px;
+    height: 24px;
+}
+
+.flowers {
+    width: 100%;
+    background-image: url("../img/shop_star_a.png"),url("../img/hot_flower.png"),url("../img/hot_flower.png");
+    background-position: 0 20%,right center,80% bottom;
+    background-repeat: no-repeat;
+}
+
+.flowers li {
+    width: 85%;
+    margin: -24px 20px 0 20px;
+}
+
+.flowers .clear {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.flowers img {
+    border-radius: 10px;
+}
+
+.flowers .flowers_name {
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.flowers .price {
+    color: red;
+    float: right;
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.flowers .price:before {
+    content: '¥';
+}
+
+.flowers button {
+    margin: 34px auto 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: 1px solid #666;
+    padding: 4px 18px;
+    background: none;
+}
+
+.footer {
+    width: 85%;
+    margin: auto;
+    border-top: 1px solid #c6c6c6;
+    padding: 6px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    padding-right: 6px;
+}

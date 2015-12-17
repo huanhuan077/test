@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Dom节点</title>
+		<script type="text/javascript">
+			window.onload=function(){
+				var oContainer=document.getElementById('container');
+				console.log(oContainer.nodeName+oContainer.nodeValue+'/'+oContainer.nodeType);
+				var conAttr=oContainer.attributes[0];
+				console.log(conAttr.nodeName+'/'+conAttr.nodeValue);
+				console.log(oContainer.childNodes);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<p>文本节点</p>
+		</div>
+	</body>
+</html>
